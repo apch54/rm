@@ -1,0 +1,282 @@
+body {
+  background-color: #f2edf0;
+  padding: 30px;
+  background-image: url("../backgroundSocle.png");
+  background-position: center;
+  max-width: 728px;
+  margin: auto;
+  color: white;
+
+}
+
+.game-explanation-200 .title, .text-100 .title, .game-explanation-100 .title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #362112;
+  margin-bottom: 20px;
+  border-radius: 10px;
+ }
+
+.ads300_250 {
+  width: 300px;
+  margin: auto;
+}
+
+.ads320_250, .ads320_50, .ads320_100 {
+  width: 320px;
+  margin: auto;
+}
+
+.ads728_90 {
+  width: 728px;
+  margin: auto;
+}
+
+
+
+.header {
+  text-align: center;
+}
+
+
+
+.row {
+  margin-bottom: 12px;
+}
+
+
+
+@media screen and (orientation:landscape) and (max-width: 46em) {
+  #game-container.row {
+    width: 60% !important;
+  }
+}
+
+#game-container canvas {
+  touch-action: inherit !important;
+}
+
+.auto-promo {
+  background-color: white;
+  border-radius: 10px;
+ /* padding: 1.5em;*/
+  color: #362112;
+     /* margin-top: 20px;*/
+}
+
+.auto-promo .ap_img {
+  float: left;
+  margin-right:15px;
+}
+
+.auto-promo .ap_text {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+
+.auto-promo h2 {
+  font-size: 24px;
+}
+
+.playnow .fa {
+  font-size: 5em;
+  font-weight: normal;
+}
+
+
+i.fa.fa-download {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+i.fa.fa-gamepad {
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+
+
+.game-explanation-200, .game-explanation-100, .text-100 {
+     border-radius: 10px;
+  
+    font-weight: 800;
+    font-family: inital;
+    border-radius: 10px;
+    
+    font-size: 0.9em;
+    /* line-height: 1.2em; */
+    color: #362112;
+    text-align: justify;
+    /*background-image: -webkit-linear-gradient( -90deg, rgb(228,227,227) 0%, rgb(217,216,216) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(228,227,227) 0%, rgb(217,216,216) 100%);
+    background-image: -moz-linear-gradient( -90deg, rgb(228,227,227) 0%, rgb(217,216,216) 100%);
+  padding: 20px; */
+}
+
+
+
+
+i.fa.fa-arrow-circle-o-right {
+    font-size: 23px;
+    float: right;
+}
+
+h2 {
+    padding-top: 10px;
+    color:#362112;
+}
+img.ap_img {
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+
+
+.ap_text {
+    font-size: 24px;
+    font-family: "Helvetica";
+    color: #000000;
+    /* color: rgb(0, 104, 130); */
+}
+
+
+
+.columns.text-100 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*.medium-12.columns.game-explanation-200 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
+
+.ap_text {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    clear: both;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*menubutton*/
+a.button.expand.item-menu {
+  border-radius: 10px;
+  border-color: rgb(164, 247, 255) ;
+  background-image: -moz-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%); 
+  border-width: 2px;
+  margin-top: 30px;
+ 
+}
+
+/*freegame*/
+.free-game {
+border-radius: 10px;
+  background-image: -moz-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);  
+padding: 10px ;
+text-align: center;
+color: white ; 
+border: 2px solid !important;
+border-color: rgb(164, 247, 255) !important;
+
+}
+/*freegameplaynowbutton*/
+.auto-promo .playnow {
+  
+border-radius: 10px;
+  background-image: -moz-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(64, 227, 251) 0%, rgb(6, 200, 229) 100%); 
+border-width: 2px;
+color:white;
+font-weight: normal;
+text-align: center;
+padding: 10px 15px; 
+display: block;
+margin-top: 40px;
+border: 2px solid !important;
+border-color: rgb(164, 247, 255) !important;
+
+}
+/*gameexplainationpremier*/
+.game-exp100 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-image: -moz-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+  background-image: -webkit-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+  background-image: -ms-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+  padding: 15px;
+
+    
+}
+
+/*gameexplainationSecond*/
+.text-100 {
+padding-top: 10px;
+padding-bottom: 10px;
+padding: 15px;
+background-image: -moz-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+background-image: -webkit-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+background-image: -ms-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);    
+border-radius: 5px;
+}
+
+ /*gameexplainationgamepage*/
+.game-explanation-200 {
+  background-image: -moz-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(229, 229, 229) 0%,rgb(206, 206, 206) 100%);
+  background-image: -ms-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%); 
+  padding: 10px  ;
+}
+
+/*autopromosgameexplaination*/
+.clearfix {
+  border-radius: 10px;
+  background-image: -moz-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+  background-image: -webkit-linear-gradient( -90deg,rgb(229, 229, 229)  0%, rgb(206, 206, 206) 100%);
+  background-image: -ms-linear-gradient( -90deg,rgb(229, 229, 229)  0%,rgb(206, 206, 206) 100%);
+}
+
+/*playnowbutton*/
+.playnow_btn {
+  width: 100%;
+  border-radius: 10px;
+  border-color: rgb(254, 108, 135);
+  background-image: -moz-linear-gradient( -90deg, rgb(252, 189, 202) 0%,rgb(255, 143, 145) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(252, 189, 202) 0%,rgb(255, 143, 145) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(252, 189, 202) 0%rgb(255, 143, 145) 100%);
+  line-height: 1.5em;
+  font-size: 1.2em;
+  border-width:2px; 
+}
+
+/*ads*/
+.ads {
+  color: rgb(218, 218, 218);
+  font-size: 0.7em;
+  /*opacity: 0.1;*/
+}
+
+/*playwinshare*/
+h1.playwinshare {
+    text-align: center;
+    color: rgb(225, 225, 225);
+}

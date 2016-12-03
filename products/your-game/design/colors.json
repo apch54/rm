@@ -1,0 +1,36 @@
+{
+    "menuitem_border_color": "white",
+    "menuitem_text_color": "#020e50",
+    "menuitem_gradiant_start": "#ffde16",
+    "menuitem_gradiant_end": "#ffde16",
+    
+    "menuitem_click_border_color": "white",
+    "menuitem_click_text_color": "#020e50",
+    "menuitem_click_gradiant_start": "#f1e7a9",
+    "menuitem_click_gradiant_end": "#f1e7a9",
+    
+    
+	"text_block_gradiant_start": "#d9dadc",
+	"text_block_gradiant_end": "#879099",
+	"text_block_color": "#020e50",
+	       
+	
+	"ads": "#607485",
+	
+	
+    "play_btn_border_color": "black",
+    "play_btn_gradiant_start": "#38acfd",
+    "play_btn_gradiant_end": "#0041c9",
+    
+    "play_click_btn_border_color": "black",
+    "play_click_btn_gradiant_start": "#f6dd78",
+    "play_click_btn_gradiant_end": "#f5c503",
+    
+    
+    "sliderfs_gradiant_start": "#4b5462",
+    "sliderfs_gradiant_end": "#a5aeb6",
+    
+    
+    "autopromo_playnow": "#51626f"
+
+}

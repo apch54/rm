@@ -1,0 +1,2 @@
+C:\Program Files (x86)\EasyPHP-12.1\www\socle3\astro-jumper\products\your-game\obj\Debug\NodejsApp1.njsprojResolveAssemblyReference.cache
+C:\Program Files (x86)\EasyPHP-12.1\www\socle3\astro-jumper\products\your-game\bin\Microsoft.NodejsTools.WebRole.dll

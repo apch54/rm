@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  var stepTiles = {}
+</script>
+
+<script type="text/javascript" src="<?php print ROOT_GAME ?>build/game.js"></script>
+
+

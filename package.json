@@ -1,0 +1,20 @@
+{
+  "name": "game-socle",
+  "version": "1.0.0",
+  "description": "1. Cloner le socle dans votre répertoire de travail sur serveur Web. 2. Copier le fichier config.sample.php vers config.php 3. Placer vous dans le repertoire 'ads' 4. copier tous les fichiers presents dans le repertoire ads/examples/ :    dans le dossier parent \"ads\" 5. Crée un dossier products a la racine.    Dans ce dossier vous clonerez le projet sur lequel vous souhaitez travailler. 6. Modifier le fichier de configuration config.php       define('PRODUCT', '**Dossier du jeu**');",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitgames@128.199.192.138:game-socle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0"
+  }
+}
